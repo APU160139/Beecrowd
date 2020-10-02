@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int X,i,j;
+    scanf("%d", &X);
+    if(X%2==0)
+    {
+        for(i=X+1;i<=X+11;i=i+2){
+             printf("%d\n",i);
+        }
+
+    }
+    else
+    {
+        for(j=X;j<=X+10;j=j+2){
+           printf("%d\n",j);
+        }
+
+    }
+    return 0;
+}
